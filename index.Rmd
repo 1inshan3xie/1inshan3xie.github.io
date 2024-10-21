@@ -11,5 +11,15 @@ output:
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
-This is an awesome website about data science and elmo.\
+This is an **awesome website** about data science and elmo.\
 Sometimes I use [google](http://www.google.com/) to do data science when I'am stuck. 
+
+## Two ways of inserting picture
+
+This is a pic i want to insert
+![](images/cat.jpg)
+
+<img src = "images/cat.jpg" style = "width:75%">
+
+
+
