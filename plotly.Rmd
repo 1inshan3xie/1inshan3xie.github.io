@@ -31,6 +31,7 @@ nyc_airbnb = nyc_airbnb |>
 
 Use plotly to make some quick plots.\
 (the plots that you can interact with)
+可以zoom in 和 zoom out！！
 ```{r}
 nyc_airbnb |>
   plot_ly(
@@ -48,6 +49,35 @@ nyc_airbnb |>
   )
 ```
 
+Next up - boxplot
+```{r}
+nyc_airbnb |>
+  plot_ly(
+    x = ~neighbourhood, y = ~price,
+    type = "box"
+  )
+```
+
+Make the plot more easier to read
+可以单选某个或者某些neighborhood来把他们挑出来单独对比
+```{r}
+nyc_airbnb |>
+  mutate(neighbourhood = fct_reorder(neighbourhood, price)) |>
+  plot_ly(
+    x = ~neighbourhood, y = ~price, color = ~neighbourhood,
+    type = "box", colors = "viridis" )
+```
+
+Let's do a bar chart with number of rentals.
+```{r}
+nyc_airbnb |>
+  count(neighbourhood) |>
+  mutate(neighbourhood = fct_reorder(neighbourhood, n)) |>
+  plot_ly(
+    x = ~neighbourhood, y = ~n,
+    type = "bar"
+  )
+```
 
 
 
