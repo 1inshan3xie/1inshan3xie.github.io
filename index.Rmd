@@ -22,3 +22,5 @@ This is a pic i want to insert
 
 If you want ro learn more about this website, visit [this page](about.html)
 
+NOW i can put stuff on the internet.
+
