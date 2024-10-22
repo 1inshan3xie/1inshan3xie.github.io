@@ -18,6 +18,8 @@ library(plotly)
 
 Do some initial cleaning / subsetting
 ```{r}
+data("nyc_airbnb")
+
 nyc_airbnb = nyc_airbnb |>
   mutate(rating = review_scores_location / 2) |>
   select(rating, neighbourhood_group, neighbourhood,room_type, lat, long, price) |>
