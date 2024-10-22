@@ -4,12 +4,11 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
 # Information about this website
 
-This website was made as an example in [p8105](https://p8105.com/) for"Making Website". I'm making it in a R markdown and use Github for hosting
+This website was made as an example in [p8105](https://p8105.com) for"Making Website". I'm making it in a R markdown and use Github for hosting
 
 
 
