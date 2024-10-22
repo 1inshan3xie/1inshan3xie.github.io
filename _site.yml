@@ -1,7 +1,7 @@
 name: "Yay internet!"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "Best page ever"
   right:
     - text: "About"
       href: about.html
@@ -13,4 +13,4 @@ navbar:
       href: http://github.com/<YOUR_GH_NAME>/
 output:
   html_document:
-    theme: cerulean
+    theme: cosmo

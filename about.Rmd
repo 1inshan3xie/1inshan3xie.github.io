@@ -10,7 +10,7 @@ output:
 
 This website was made as an example in [p8105](https://p8105.com) for"Making Website". I'm making it in a R markdown and use Github for hosting
 
-
+You can go [home](index.html) using this link.
 
 
 
